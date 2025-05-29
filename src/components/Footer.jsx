@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
 
       {/* Копирайт и ссылки */}
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300, mt-10">
+      <div className="w-full px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300, mt-10">
         <p>&copy; {new Date().getFullYear()} MyApp. Все права защищены.</p>
         <div className="space-x-4 mt-2 md:mt-0">
           <a href="#" className="hover:underline">Политика конфиденциальности</a>
